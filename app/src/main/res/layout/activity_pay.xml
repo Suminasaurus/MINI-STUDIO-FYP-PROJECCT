@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background5"
+    tools:context=".PayActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        tools:context=".PayActivity">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:contentDescription="logo"
+            android:layout_marginLeft="135dp"
+            android:src="@drawable/ministudiotrans" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+        <!-- User Info -->
+
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lavender_border"
+            android:padding="10dp"
+            android:text="User Name: "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <!-- Booking Info -->
+
+        <TextView
+            android:id="@+id/tvUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvUsername"
+            android:layout_marginTop="15dp"
+            android:text="User Email: "
+            android:background="@drawable/lavender_border"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvOutlet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvUserEmail"
+                android:layout_marginTop="15dp"
+                android:text="Outlets: "
+                android:background="@drawable/lavender_border"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvRoomType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvUserEmail"
+            android:background="@drawable/lavender_border"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Room Type: "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvBookingTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvRoomType"
+            android:layout_marginTop="17dp"
+            android:text="Booking Time: "
+            android:background="@drawable/lavender_border"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvDuration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvBookingTime"
+                android:layout_marginTop="17dp"
+                android:text="Booking Duration: "
+                android:background="@drawable/lavender_border"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvBookingDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvBookingTime"
+            android:layout_marginTop="17dp"
+            android:text="Booking Time: "
+            android:background="@drawable/lavender_border"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvTotalPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvBookingDate"
+            android:layout_marginTop="17dp"
+            android:text="Total Payment: "
+            android:background="@drawable/lavender_border"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/btnPay"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/tvTotalPrice"
+            android:layout_marginVertical="20dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/purple_600"
+            android:text="Pay"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnhome"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/btnPay"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/purple_600"
+            android:text="Home"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

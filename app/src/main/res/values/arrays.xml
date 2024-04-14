@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="outlets_array">
+
+        <item>AEON MALURI</item>
+        <item>DPULZE CYBERJAYA</item>
+        <item>QUAYSIDE MALL</item>
+        <item>QUIET PLACE KL</item>
+        <item>TOPPEN MALL JB</item>
+
+    </string-array>
+
+    <string-array name="room_types_array">
+        <item>BAND STUDIO </item>
+    </string-array>
+
+</resources>

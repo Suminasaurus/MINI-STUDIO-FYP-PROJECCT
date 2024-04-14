@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "36400490294",
+    "firebase_url": "https://ministudio-5de6e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ministudio-5de6e",
+    "storage_bucket": "ministudio-5de6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36400490294:android:e69aaf2418aff2a21b7597",
+        "android_client_info": {
+          "package_name": "com.example.ministudio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB95CawW5uCsgb9BXIFbJSk8T3gHTq1yow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
